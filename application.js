@@ -53,7 +53,7 @@ var particles = new THREE.ParticleSystem(geometry, material);
 scene.add(particles);
 
 var renderer = new THREE.WebGLRenderer();
-renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setSize(window.innerWidth, window.innerHeight-10);
 container.appendChild(renderer.domElement);
 
 render();
