@@ -106,9 +106,9 @@ $.getJSON( "https://www.feriadosapp.com/api/holidays.json", function( data ) {
 			year = date_for.getFullYear();
 			x++;
 			$("#feriados").append('<li class="list-group-item"><span class="badge danger">' + setdate[2] + "-" + setdate[1] + "-" + setdate[0] + '</span><p class="list-group-item-heading">' + value.title + '</p><p class=" text-right list-group-item-text">' + value.extra + '</p></li>');
-			return false;
+			
 		}
-		if(x==5){
+		if(x==2){
 			return false;
 		}
 	});

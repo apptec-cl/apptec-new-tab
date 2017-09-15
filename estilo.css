@@ -21,6 +21,18 @@ body {
   letter-spacing: 3px;
   text-shadow: -4px 0 1px rgb(30,242,241) , 4px 0 1px rgb(246,5,10) ;
 }
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 5px #fff,
+    0 0 20px #fff,
+    0 0 30px #0ff,
+    0 0 70px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 140px #0ff;
+}
 .list-group-item:first-child, .list-group-item:last-child, .badge {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
