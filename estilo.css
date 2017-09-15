@@ -41,8 +41,8 @@ body {
 }
 .list-group-item{
 	color: #FFF;
-	background-color: #222;
-	border-color: #000;
+	background-color: rgba(34, 34, 34, 0.5);
+	border-color: rgba(0, 0, 0, 0.3);
 }
 h1 {
   color: #C6CBF5;
